@@ -22,10 +22,10 @@ for i in range(cols):
         stretched_img[i, j] = mapper.transform(img[i, j])
 
 
-plt.hist(np.array(img).flatten(), 256, [0, 256])
-plt.savefig("h1.jpg")
-plt.hist(np.array(stretched_img).flatten(), 256, [0, 256])
-plt.savefig("h2.jpg")
+# plt.hist(np.array(img).flatten(), 256, [0, 256])
+# plt.savefig("h1.jpg")
+# plt.hist(np.array(stretched_img).flatten(), 256, [0, 256])
+# plt.savefig("h2.jpg")
 
 
 
