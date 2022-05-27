@@ -1,0 +1,1 @@
+use constrast stretching on image to enhance visibility.
